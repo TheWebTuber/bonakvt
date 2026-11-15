@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BonakVT Emotes | Fox Den Gallery</title>
+  <meta name="description" content="Browse and share BonakVT emotes from the fox den. Animated GIF, PNG and WebP emotes, with direct copy links.">
+  <link rel="icon" href="pic/pfp.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/emotes.js" defer></script>
+</head>
+<body>
+  <div class="site-shell simple-page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Return to BonakVT home">
+        <img src="pic/pfp.jpg" alt="BonakVT profile picture" class="brand-avatar">
+        <div><span class="brand-name">BonakVT</span><span class="brand-sub">Fox Den Emotes</span></div>
+      </a>
+      <nav class="nav-menu always-open"><a href="index.html">Home</a><a href="#emote-gallery">Emotes</a></nav>
+    </header>
+    <main>
+      <section class="panel hero-mini">
+        <span class="section-kicker">Fox den emotes</span>
+        <h1>Bonak's emote stash</h1>
+        <p>All the reactions, jokes and fox-like chaos in one place. Tap an emote to copy its direct link.</p>
+      </section>
+      <section id="emote-gallery" class="panel emote-panel">
+        <div class="panel-heading">
+          <div><span class="section-kicker">Community gallery</span><h2>Pick an emote</h2></div>
+          <label class="emote-search-wrap"><span class="sr-only">Search emotes</span><input id="emote-search" type="search" placeholder="Search emotes…" autocomplete="off"></label>
+        </div>
+        <p id="emote-status" class="emote-status" role="status" aria-live="polite">Loading emotes…</p>
+        <div id="emote-gallery-grid" class="emote-grid large-grid"></div>
+      </section>
+    </main>
+    <footer class="footer"><p>BonakVT • Emotes belong to their respective creators. See the homepage for artist credits.</p></footer>
+  </div>
+</body>
+</html>
